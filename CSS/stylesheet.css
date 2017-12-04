@@ -1,0 +1,126 @@
+0div {
+    width: 100%;
+    height: 400px;
+    background-image: url('img_flowers.jpg');
+    background-size: cover;
+    border: 1px solid red;
+}
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#Home {
+    top: 20px;
+    background-color: #6600cc;
+}
+
+#blog {
+    top: 80px;
+    background-color: #00ffcc;
+}
+
+#projects {
+    top: 140px;
+    background-color: #ff3399;
+}
+
+#contact {
+    top: 200px;
+    background-color: #0073e6;
+}}
+
+.icon-bar {
+    width: 100%; 
+    background-color: #555; 
+    overflow: FIXED; 
+}
+
+.icon-bar a {
+    float: left; 
+    text-align: center; 
+    width: 33%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease; 
+    color: white; 
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #530; 
+}
+
+.active {
+    background-color: #555; 
+}
+
+
+#title{
+	font-family: 'Amatic SC', cursive;
+	color:white;
+	background-color:purple;
+	   position: 
+  top: 0px;
+
+}
+
+#Whoarewe{
+	font-family: 'Amatic SC', cursive;
+	color:#0073e6;
+	
+}
+
+#Paraus{
+	font-family: 'Amatic SC', cursive;
+	color:black;
+	
+}
+
+#blogtitle{
+	font-family: 'Amatic SC', cursive;
+	color:white;
+	background-color:purple;
+	   position: 
+  top: 0px;
+}
+
+#reviewjigsawtitle{
+	font-family: 'Amatic SC', cursive;
+	color:#ff3399;
+}
+
+#jigsawreview{
+	font-family: 'Amatic SC', cursive;
+	color:black;
+}
+
+#contacttitle{
+	font-family: 'Amatic SC', cursive;
+	color:#00ffcc;
+}
+#numberslist{	
+font-family: 'Amatic SC', cursive;
+	color:#0073e6;
+	
+}
+#numberslist2{	
+font-family: 'Amatic SC', cursive;
+	color:#2a19e8;
+	
+}
+#EMnumberslist{	
+font-family: 'Amatic SC', cursive;
+	color:#d6283a;
+	
+}
