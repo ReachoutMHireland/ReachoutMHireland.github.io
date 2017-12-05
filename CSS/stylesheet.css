@@ -22,21 +22,25 @@
 }
 
 #Home {
+	font-family: 'Oswald', sans-serif;
     top: 20px;
     background-color: #6600cc;
 }
 
 #blog {
+	font-family: 'Oswald', sans-serif;
     top: 80px;
     background-color: #00ffcc;
 }
 
 #projects {
+	font-family: 'Oswald', sans-serif;
     top: 140px;
     background-color: #ff3399;
 }
 
 #contact {
+	font-family: 'Oswald', sans-serif;
     top: 200px;
     background-color: #0073e6;
 }}
@@ -67,7 +71,7 @@
 
 
 #title{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Oswald', sans-serif;
 	color:white;
 	background-color:purple;
 	   position: 
@@ -76,19 +80,19 @@
 }
 
 #Whoarewe{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Oswald', sans-serif;
 	color:#0073e6;
 	
 }
 
 #Paraus{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Oswald', sans-serif;
 	color:black;
 	
 }
 
 #blogtitle{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Oswald', sans-serif;
 	color:white;
 	background-color:purple;
 	   position: 
@@ -96,31 +100,66 @@
 }
 
 #reviewjigsawtitle{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Oswald', sans-serif;
 	color:#ff3399;
 }
 
 #jigsawreview{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Oswald', sans-serif;
 	color:black;
 }
 
 #contacttitle{
-	font-family: 'Amatic SC', cursive;
-	color:#00ffcc;
+	font-family: 'Oswald', sans-serif;
+	color:white;
+	background-color:purple;
+	position: 
+  top: 0px;
 }
-#numberslist{	
-font-family: 'Amatic SC', cursive;
-	color:#0073e6;
-	
+#numberslist{
+font-family:'Oswald', sans-serif;
+	color:white;
+	background-color:#0073e6;
 }
 #numberslist2{	
-font-family: 'Amatic SC', cursive;
-	color:#2a19e8;
-	
+font-family: 'Oswald', sans-serif;
+	color:white;
+	background-color:#6600cc;
 }
 #EMnumberslist{	
-font-family: 'Amatic SC', cursive;
-	color:#d6283a;
-	
+font-family:'Oswald', sans-serif;
+	color:white;
+	background-color:#f90202;
+}
+#numberslist3{	
+font-family: 'Oswald', sans-serif;
+	color:white;
+	background-color:#ff3399;
+}
+#contacttitle2{
+	font-family: 'Oswald', sans-serif;
+	color:black;
+	background-color:#ffffff;
+}
+#contacttitle3{
+	font-family: 'Oswald', sans-serif;
+	color:black;
+	background-color:#ffffff;
+}
+#contacttitle4{
+	font-family: 'Oswald', sans-serif;
+	color:black;
+	background-color:#ffffff;
+}
+#projecttitle{
+	font-family: 'Oswald', sans-serif;
+	color:white;
+	background-color:purple;
+	   position: 
+  top: 0px;
+}
+#twitterlink{
+	font-family: 'Oswald', sans-serif;
+	color:black;
+
 }
