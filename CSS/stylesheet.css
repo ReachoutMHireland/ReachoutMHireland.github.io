@@ -48,7 +48,12 @@
 #TOMI {font-family: 'Oswald', sans-serif;
     top: 260px;
     background-color: #FF6666;
-}}
+}
+#Blue{
+	font-family: 'Oswald', sans-serif;
+	border:2px #0073e6;
+
+}
 	
 
 .icon-bar {
