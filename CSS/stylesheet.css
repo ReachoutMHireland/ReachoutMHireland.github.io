@@ -96,10 +96,15 @@
 	color:#0073e6;
 	
 }
+#Whoarewe2{
+	font-family: 'Oswald', sans-serif;
+	color:purple;
+	
+}
 
 #Paraus{
 	font-family: 'Oswald', sans-serif;
-	Color:black;
+	color:black;
 	
 }
 }
@@ -120,49 +125,16 @@
 	font-family: 'Oswald', sans-serif;
 	color:black;
 }
-
-#contacttitle{
-	font-family: 'Oswald', sans-serif;
-	color:white;
-	background-color:purple;
-	
-  
-}
-#numberslist{
-font-family:'Oswald', sans-serif;
-	color:white;
-	background-color:#0073e6;
-}
-#numberslist2{	
-font-family: 'Oswald', sans-serif;
-	color:white;
-	background-color:#6600cc;
-}
 #EMnumberslist{	
 font-family:'Oswald', sans-serif;
 	color:white;
 	background-color:#f90202;
 }
-#numberslist3{	
-font-family: 'Oswald', sans-serif;
+#contacttitle{
+	font-family: 'Oswald', sans-serif;
 	color:white;
-	background-color:#ff3399;
-}
-#contacttitle2{
-	font-family: 'Oswald', sans-serif;
-	color:black;
-	background-color:#ffffff;
-}
-#contacttitle3{
-	font-family: 'Oswald', sans-serif;
-	color:black;
-	background-color:#ffffff;
-}
-#contacttitle4{
-	font-family: 'Oswald', sans-serif;
-	color:black;
-	background-color:#ffffff;
-}
+	background-color:purple;
+}	
 #projecttitle{
 	font-family: 'Oswald', sans-serif;
 	color:white;
