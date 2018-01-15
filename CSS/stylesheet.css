@@ -19,7 +19,7 @@
 }
 
 #mySidenav a:hover {
-    left: 0;
+    left: 1;
 }
 
 #Home {
@@ -27,7 +27,8 @@
     top: 20px;
     background-color: #6600cc;
 	opacity: 0.5;
-	hover: opacity: 1.0;
+	img:hover {
+    opacity: 1.0;
 }
 
 #blog {
