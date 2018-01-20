@@ -7,7 +7,22 @@
 		 <link type="text/css"  rel="stylesheet" href="CSS/stylesheet.css">
 
 <centre>
-  tippy('.btn')<button class="btn" title="I'm a tooltip!">Text</button>
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+
+<center>
+<p id="p1">Hello, I'm TEXT 1</p>
+<p id="p2">Hi, I'm the 2nd TEXT</p><br/>
+
+<button onclick="copyToClipboard('#p1')">Copy TEXT 1</button>
+<button onclick="copyToClipboard('#p2')">Copy TEXT 2</button>
+
+</center>
 </centre>
 
 
