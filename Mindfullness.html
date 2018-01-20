@@ -7,20 +7,22 @@
 		 <link type="text/css"  rel="stylesheet" href="CSS/stylesheet.css">
 
 			
-<center><script>
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Play Mindfullnes Music";
+<script>
+var audio = new Audio("http://music.ogg" ) ;
+
+audio.oncanplaythrough = function(){
+audio.play();
 }
-	</script>
-</head>
 
-<body>
+audio.loop = true;
 
-	<div id="mt"><h2>Click below to play some calming music</h2></div>
+audio.onended = function(){
+audio.play();
+}
 
-<p id="Relax">Relax!</p>
+</script>
 
-	<div id="Music"><button type="button" onclick="myFunction()">Play Mindfullness Music</button></center></div>
+<input type="image" src="http://button.png" onclick="audio.play()">
 
 <div id="mySidenav" class="sidenav">
   <a href="Homepage.html" id="Home">Home</a>
