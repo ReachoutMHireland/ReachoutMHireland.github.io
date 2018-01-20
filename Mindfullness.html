@@ -6,19 +6,18 @@
 		 <link rel="icon" href="Images/mindful.png" type="image/png" sizes="16x16">
 		 <link type="text/css"  rel="stylesheet" href="CSS/stylesheet.css">
 
-			
-<script>
-var audio = new Audio("http://music.ogg" ) ;
 
-audio.oncanplaythrough = function(){
-audio.play();
-}
+  <script>
+  function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
+   </script>
 
-audio.loop = true;
-
-audio.onended = function(){
-audio.play();
-}
+<input type="button" value="PLAY"  onclick="play()">
+<audio id="audio" src="http://dev.interactive-creation-works.net/1/1.ogg" ></audio>
+ </body>
+ </html>
 
 </script>
 
