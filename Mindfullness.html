@@ -9,7 +9,7 @@
 <centre>
 <script>
 function copyToClipboard(element) {
-  
+  var $temp = $("<input>");
   $("body").append($temp);
   $temp.val($(element).text()).select();
   document.execCommand("copy");
@@ -18,11 +18,17 @@ function copyToClipboard(element) {
 	</script>
 
 <center>
+     <p style="color:wheat;font-size:55px;text-align:center;">How to copy a TEXT to Clipboard on a Button-Click</p>
+
+<center>
 <p id="p1">Hello, I'm TEXT 1</p>
 <p id="p2">Hi, I'm the 2nd TEXT</p><br/>
 
 <button onclick="copyToClipboard('#p1')">Copy TEXT 1</button>
 <button onclick="copyToClipboard('#p2')">Copy TEXT 2</button>
+  
+<br/><br/><input class="textBox" type="text" id="" placeholder="Dont belive me?..TEST it here..;)" />
+</center>
 
 </center>
 </centre>
