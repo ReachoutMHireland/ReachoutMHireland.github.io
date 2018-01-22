@@ -1,10 +1,7 @@
-0div {
-    width: 100%;
-    height: 400px;
-    background-image: url('img_flowers.jpg');
-    background-size: cover;
-    border: 1px solid red;
+
 }
+	/*this contains the code for the position of the navigation bar the font size and color*/
+	
 #mySidenav a {
     position: absolute;
     left: -80px;
@@ -17,9 +14,13 @@
     border-radius: 0 5px 5px 0;
 }
 
+/*this contains code to make the navigation bars hover over one another*/
+
 #mySidenav a:hover {
     left: 0;
 }
+
+/*this contains the code that sets the font and its background of the homepage*/
 
 #Home {
 	font-family: 'Oswald', sans-serif;
@@ -27,11 +28,15 @@
     background-color: #6600cc;
 }
 
+/*this line of code that sets the font and background color of the blog page*/
+
 #blog {
 	font-family: 'Oswald', sans-serif;
     top: 80px;
     background-color: #00ffcc;
 }
+
+/*this line of code that sets the font and background color of the projects page*/
 
 #projects {
 	font-family: 'Oswald', sans-serif;
@@ -39,34 +44,43 @@
     background-color: #ff3399;
 }
 
+/*this line of code that sets the font and background color of the contacts page*/
+
 #contact {
 	font-family: 'Oswald', sans-serif;
     top: 200px;
     background-color: #0073e6;
 }
 
+/*this line of code that sets the font and background color of the Types of mental illnesses page*/
+
 #TOMI {font-family: 'Oswald', sans-serif;
     top: 260px;
     background-color: #FF6666;
 }
+
+/*this line of code that sets the font and background color of the mindfullness page*/
+
 #mind {font-family: 'Oswald', sans-serif;
     top: 340px;
     background-color: #FF2003;
 }
 
+/*this is the code of a div that we tried to create and its font family and color */
 
 #Blue {font-family: 'Oswald', sans-serif;
 	border:2px#0073e6;
 
 }
 	
+/*this line of code that sets the width and background color of the icon bar*/
 
 .icon-bar {
     width: 100%; 
     background-color: #555; 
     overflow: FIXED; 
 }
-
+/*this line of code that puts the icon bar into the right position and leaves the correct padding it also sets the color*/
 .icon-bar a {
     float: left; 
     text-align: center; 
@@ -77,6 +91,8 @@
     font-size: 36px;
 }
 
+/*this line of code that sets the font and background color of the projects page*/
+
 .icon-bar a:hover {
     background-color: #530; 
 }
@@ -85,6 +101,7 @@
     background-color: #555; 
 }
 
+/*this line of code that sets the text color and the font of the text it also adds background color of the title*/
 
 #title{
 	font-family: 'Oswald', sans-serif;
@@ -95,28 +112,46 @@
 
 }
 
+/*this line of code that sets the font and text color*/
+
 #Whoarewe{
 	font-family: 'Oswald', sans-serif;
 	color:#0073e6;
 	
 }
+
+/*this line of code that sets the font and text color*/
+
+
 #Whoarewe2{
 	font-family: 'Oswald', sans-serif;
 	color:purple;
 	
 }
+
+/*this line of code that sets the font and text color*/
+
+
 #Whoarewe3{
 	font-family: 'Oswald', sans-serif;
 	color:#ff3399;
 	
 }
 
+/*this line of code that sets the font and text color*/
+
+
 #Paraus{
 	font-family: 'Oswald', sans-serif;
 	color:black;
 	
 }
+
 }
+
+/*this line of code that sets the font and text color it also adds in the bakground color*/
+
+
 #blogtitle{
 	font-family: 'Oswald', sans-serif;
 	color:white;
@@ -125,25 +160,41 @@
   top: 0px;
 }
 
+/*this line of code that sets the font and text color*/
+
+
 #reviewjigsawtitle{
 	font-family: 'Oswald', sans-serif;
 	color:#ff3399;
 }
 
+/*this line of code that sets the font and text color*/
+
+
 #jigsawreview{
 	font-family: 'Oswald', sans-serif;
 	color:black;
 }
+
+/*this line of code that sets the font and text color it also adds the background color*/
+
+
 #EMnumberslist{	
 font-family:'Oswald', sans-serif;
 	color:white;
 	background-color:#f90202;
 }
+
+/*this line of code that sets the font and text color it also adds the background color*/
+
 #contacttitle{
 	font-family: 'Oswald', sans-serif;
 	color:white;
 	background-color:purple;
 }	
+
+/*this line of code that sets the font and text color it also adds the background color*/
+
 #projecttitle{
 	font-family: 'Oswald', sans-serif;
 	color:white;
@@ -151,15 +202,24 @@ font-family:'Oswald', sans-serif;
 	   position: 
   top: 0px;
 }
+
+/*this line of code that sets the font and text color it also adds the background color of the twitter link*/
+
 #twitterlink{
 	font-family: 'Oswald', sans-serif;
 	color:black;
 
 }
+
+/*this line of code that sets the font and text color it also adds the background color*/
+
 #phone{
 	font-family: 'Audiowide', cursive;
 	color:#030b60;
 }
+
+/*this line of code that sets the height and width*/
+
 #fiveadayimg{
     width: 100%;
     height: 1200px;
@@ -167,10 +227,17 @@ font-family:'Oswald', sans-serif;
 #textmargin{
 	 margin-left: 80px;
 }
+/*this line of code that sets the font and text color */
+
+
 #Relax{
 	font-family: 'Oswald', sans-serif;
 	color:purple;
 }
+
+/*this line of code that sets the font and text color it also adds the background color it also positions it correctly*/
+
+
 #Music 
 a:link, a:visited {
     background-color: #f44336;
@@ -181,10 +248,13 @@ a:link, a:visited {
     display: inline-block;
 }
 
+/*this line of code that sets the font and text color it also adds the background color*/
 
 a:hover, a:active {
     background-color: red;
 }
+
+/*this line of code that sets the font and text color */
 
 #mh{
 font-family: 'Oswald', sans-serif;
