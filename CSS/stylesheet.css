@@ -1,10 +1,7 @@
-0div {
-    width: 100%;
-    height: 400px;
-    background-image: url('img_flowers.jpg');
-    background-size: cover;
-    border: 1px solid red;
-}
+
+
+	/*this contains the code for the position of the navigation bar the font size and color*/
+	
 #mySidenav a {
     position: absolute;
     left: -80px;
@@ -16,6 +13,8 @@
     color: white;
     border-radius: 0 5px 5px 0;
 }
+
+/*this contains code to make the navigation bars hover over one another*/
 
 #mySidenav a:hover {
     left: 0;
