@@ -263,7 +263,11 @@ font-family: 'Oswald', sans-serif;
 
 #myButton{
 background-color: #008CBA;
+color:white;
+font-family: 'Oswald', sans-serif;
 padding: 14px 40px;
 border-radius: 12px;
 width: 250px;
+text-align: center;
+text-decoration: none;
 }
