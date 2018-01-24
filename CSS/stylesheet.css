@@ -260,3 +260,10 @@ a:hover, a:active {
 font-family: 'Oswald', sans-serif;
 	color:purple;
 }
+
+#myButton{
+background-color: #008CBA;
+padding: 14px 40px;
+border-radius: 12px;
+width: 250px;
+}
